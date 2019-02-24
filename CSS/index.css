@@ -7,6 +7,7 @@ html {
 html,
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #080808;
 }
 h1,
 h2,
@@ -34,7 +35,7 @@ p {
   margin: 0 auto;
 }
 header {
-  background-color: #080808;
+  height: 1080px;
   padding: 20px 0;
 }
 header nav {
@@ -85,4 +86,19 @@ header .header-info .intro .summary .dog-in-snow {
 header .header-info .intro .summary p {
   font-size: 1.7rem;
   padding: 20px 10%;
+}
+.projects {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.projects .project-section {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+.projects .project-section .project {
+  width: 25%;
+  height: 300px;
+  margin: 0 5%;
+  background-color: #C3C4C4;
 }
