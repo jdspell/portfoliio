@@ -7,6 +7,7 @@ html {
 html,
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #080808;
 }
 h1,
 h2,
@@ -16,16 +17,16 @@ h5 {
   font-family: 'Poppins', sans-serif;
 }
 h1 {
-  font-size: 5.4rem;
+  font-size: 6.2rem;
 }
 h2 {
-  font-size: 3.2rem;
+  font-size: 3.4rem;
 }
 h3 {
   font-size: 2.8rem;
 }
 p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.4;
 }
 .container {
@@ -34,7 +35,7 @@ p {
   margin: 0 auto;
 }
 header {
-  background-color: #080808;
+  height: 1080px;
   padding: 20px 0;
 }
 header nav {
@@ -45,6 +46,7 @@ header nav {
 }
 header nav a {
   margin: 0 50px;
+  text-shadow: 0 0 20px rgba(24, 24, 24, 0.3);
   text-decoration: none;
   color: white;
   font-size: 1.5rem;
@@ -54,7 +56,7 @@ header .header-info {
   display: flex;
   flex-flow: row nowrap;
   width: 96%;
-  margin: 20px 2%;
+  margin: 130px 15% 25px 20%;
   color: #ECD5A7;
 }
 header .header-info .intro {
@@ -63,11 +65,11 @@ header .header-info .intro {
   flex-flow: column nowrap;
 }
 header .header-info .intro h1 {
-  margin: 10px 0;
+  margin: 5px 0;
   color: #fff;
 }
 header .header-info .intro h2 {
-  margin: 0;
+  margin: 5px 0;
   color: #ECD5A7;
 }
 header .header-info .intro .summary {
@@ -76,13 +78,40 @@ header .header-info .intro .summary {
   width: 65%;
   background-color: #19191A;
   color: #C3C4C4;
+  margin: 85px 0;
 }
 header .header-info .intro .summary .dog-in-snow {
-  width: 35%;
-  height: 270px;
+  width: 37%;
+  height: 290px;
   margin: 0;
 }
 header .header-info .intro .summary p {
   font-size: 1.7rem;
-  padding: 20px 10%;
+  padding: 30px 13%;
+}
+.projects {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.projects .project-section {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.projects .project-section .project {
+  width: 25%;
+  height: auto;
+  background-color: #19191A;
+}
+.projects .project-section .project a {
+  text-decoration: none;
+  text-align: center;
+  color: #C3C4C4;
+}
+.projects .project-section .project a img {
+  width: 100%;
+  height: 380px;
+  background: url("/images/oerBookr.png");
+  background-size: contain;
 }
